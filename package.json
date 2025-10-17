@@ -1,0 +1,11 @@
+{
+    "name": "config-checker",
+    "version": "1.0.0",
+    "scripts": {
+      "check-config": "node scripts/check_config.js",
+      "compare-env": "node scripts/compare_envs.js"
+    },
+    "dependencies": {
+      "properties-file": "^1.1.2"
+    }
+  }
